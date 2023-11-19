@@ -3,5 +3,7 @@ numpy
 scikit-learn
 seaborn
 matplotlib
+mlflow==2.2.2
+dvc
 
 -e .

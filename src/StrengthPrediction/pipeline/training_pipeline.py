@@ -3,6 +3,7 @@ import sys
 
 from src.StrengthPrediction.components.data_ingestion import DataIngestion
 from src.StrengthPrediction.components.data_transformation import DataTransformation
+from src.StrengthPrediction.components.model_trainer import ModelTrainer
 
 
 obj = DataIngestion()
@@ -13,5 +14,7 @@ datatransform = DataTransformation()
 
 train_arr, test_arr = datatransform.initialize_data_transformation(train_path, test_path)
 
-print(test_arr)
+trainer = ModelTrainer()
+
+trainer.initiate_model_training(train_arr, test_arr)
 
