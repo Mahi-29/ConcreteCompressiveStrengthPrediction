@@ -3,6 +3,7 @@
         "customexception",
         "datatransform",
         "independantfeature",
+        "mlflow",
         "xgboost"
     ]
 }

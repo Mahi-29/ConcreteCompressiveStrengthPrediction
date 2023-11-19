@@ -7,7 +7,7 @@ from sklearn.neighbors import KNeighborsRegressor
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor, AdaBoostRegressor,GradientBoostingRegressor
 from xgboost import XGBRegressor
-from sklearn.metrics import r2_score,mean_absolute_error,mean_squared_error
+
 
 from src.StrengthPrediction.exception import customexception
 from src.StrengthPrediction.logger import logging
